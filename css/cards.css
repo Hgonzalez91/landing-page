@@ -1,0 +1,26 @@
+.section-three {
+    width: 100%;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-gap: 80px;
+    justify-content: center;
+    scroll-margin: 20px;
+}
+
+.section-three .card img{
+    width: 200px;
+    height: 300px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 28px;
+}
+
+.section-three .card {
+    text-align: center;
+    font-size: 28px;
+}
