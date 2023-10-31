@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Rick and Morty</title>
 </head>
+
 <body>
     <header class="header">
         <div class="nav-container">
@@ -20,10 +24,19 @@
                     <li>Support</li>
                 </ul>
             </nav>
-            <div class="header-menu">
+            <div id='menu' class="header-menu">
                 <i class="fa-solid fa-bars"></i>
+                <div class="header-menu inactive">
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Carrers</a></li>
+                        <li><a href="">Events</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>    
+        </div>
         <div class="title-banner">
             <div>Get Schwifty</div>
         </div>
@@ -31,35 +44,42 @@
 
     <div class="wrapper">
         <div class="main-content">
-                <section class="section-one">
-                    <img src="/resource/section-one-img.jpg" alt="portal-img" title="portal-img">
-                    <div class="cuadro-informativo">
-                        <h1>Rick and Morty</h1>
-                        <p>Rick and Morty is an American adult animated science fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's nighttime programming block Adult Swim. The series follows the misadventures of Rick Sanchez, a cynical mad scientist, and his good-hearted but fretful grandson Morty Smith, who split their time between domestic life and interdimensional adventures that take place across an infinite number of realities, often traveling to other planets and dimensions through portals and on Rick's flying saucer. The general concept of Rick and Morty relies on two conflicting scenarios: domestic family drama, and a misanthropic grandfather dragging his grandson into hijinks.</p>
-                    </div>
-                </section>
-                <section class="section-two">
-                    <h1>Our Creations</h1>
-                    <button class="see-all"><a href="#section-three">See All</a></button>
-                </section>
-                <section id="section-three" class="section-three">
-                    <div class="card"><img src="./resource/rick-card.jpg" alt="">Rick</div>
-                    <div class="card"><img src="./resource/morty-card.jpg" alt="">Morty</div>
-                    <div class="card"><img src="./resource/summer-card.jpg" alt="">Summer</div>
-                    <div class="card"><img src="./resource/jerry-card.png" alt="">Jerry</div>
-                    <div class="card"><img src="./resource/beth-card.jpg" alt="">Beth</div>
-                    <div class="card"><img src="./resource/birdperson-card.jpg" alt="">Birdperson</div>
-                    <div class="card"><img src="./resource/squanchy-card.jpg" alt="">Squanchy</div>
-                    <div class="card"><img src="./resource/gearhead-card.jpg" alt="">Gearhead</div>
-                    <div class="card"><img src="./resource/evil-morty-card.jpg" alt="">Evil Morty</div>
-                    <div class="card"><img src="./resource/other-beth-card.jpg" alt="">Other beth</div>
-                    <div class="card"><img src="./resource/jessica-card.jpg" alt="">Jessica</div>
-                    <div class="card"><img src="./resource/mr-poopybutthole-card.jpg" alt="">Mr. Poopybutthole</div>
-                </section>
-                
+            <section class="section-one">
+                <img src="/resource/section-one-img.jpg" alt="portal-img" title="portal-img">
+                <div class="cuadro-informativo">
+                    <h1>Rick and Morty</h1>
+                    <p>Rick and Morty is an American adult animated science fiction sitcom created by Justin Roiland and
+                        Dan Harmon for Cartoon Network's nighttime programming block Adult Swim. The series follows the
+                        misadventures of Rick Sanchez, a cynical mad scientist, and his good-hearted but fretful
+                        grandson Morty Smith, who split their time between domestic life and interdimensional adventures
+                        that take place across an infinite number of realities, often traveling to other planets and
+                        dimensions through portals and on Rick's flying saucer. The general concept of Rick and Morty
+                        relies on two conflicting scenarios: domestic family drama, and a misanthropic grandfather
+                        dragging his grandson into hijinks.</p>
+                </div>
+            </section>
+            <section class="section-two">
+                <h1>Our Creations</h1>
+                <button class="see-all"><a href="#section-three">See All</a></button>
+            </section>
+            <section id="section-three" class="section-three">
+                <div class="card"><img src="./resource/rick-card.jpg" alt="">Rick</div>
+                <div class="card"><img src="./resource/morty-card.jpg" alt="">Morty</div>
+                <div class="card"><img src="./resource/summer-card.jpg" alt="">Summer</div>
+                <div class="card"><img src="./resource/jerry-card.png" alt="">Jerry</div>
+                <div class="card"><img src="./resource/beth-card.jpg" alt="">Beth</div>
+                <div class="card"><img src="./resource/birdperson-card.jpg" alt="">Birdperson</div>
+                <div class="card"><img src="./resource/squanchy-card.jpg" alt="">Squanchy</div>
+                <div class="card"><img src="./resource/gearhead-card.jpg" alt="">Gearhead</div>
+                <div class="card"><img src="./resource/evil-morty-card.jpg" alt="">Evil Morty</div>
+                <div class="card"><img src="./resource/other-beth-card.jpg" alt="">Other beth</div>
+                <div class="card"><img src="./resource/jessica-card.jpg" alt="">Jessica</div>
+                <div class="card"><img src="./resource/mr-poopybutthole-card.jpg" alt="">Mr. Poopybutthole</div>
+            </section>
+
         </div>
     </div>
-    
+
     <footer>
         <div class="info-footer">
             <h4>Rick and Morty</h4>
@@ -73,13 +93,19 @@
         </div>
         <div class="rights">
             <div class="icon">
-                <a href="https://twitter.com/hgonzalez_91" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
-                <a href="https://www.facebook.com/hgonzalez91" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-                <a href="https://www.pinterest.es/hgonzalez_91/" target="_blank"><i class="fa-brands fa-square-pinterest"></i></a>
-                <a href="https://www.instagram.com/hgonzalez_91/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://twitter.com/hgonzalez_91" target="_blank"><i
+                        class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://www.facebook.com/hgonzalez91" target="_blank"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.pinterest.es/hgonzalez_91/" target="_blank"><i
+                        class="fa-brands fa-square-pinterest"></i></a>
+                <a href="https://www.instagram.com/hgonzalez_91/" target="_blank"><i
+                        class="fa-brands fa-square-instagram"></i></a>
             </div>
             <h4>© 2023 HectorGonzalez.Studios All rights reserved.</h4>
         </div>
     </footer>
+    <script src="./app/index.js"></script>
 </body>
+
 </html>
