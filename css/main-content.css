@@ -1,14 +1,14 @@
 .main-content {
     display: flex;
     flex-wrap: wrap;
-    margin: 100px;
+    margin: 100px 0px;
 }
 
 /*SECTION ONE*/
 
 .section-one {
     width: 100%;
-    height: 700px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,8 +25,8 @@
 .section-one .cuadro-informativo {
     background-color: #040402;
     color: #f2f2f2;
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: auto;
     margin-top: 40px;
     padding: 30px;
     display: flex;
@@ -34,8 +34,33 @@
     justify-content: center;
     position: relative;
     border-radius: 10px;
+}    
+/*SECTION TWO*/
+
+.section-two {
+width: 100%;
+height: 120px;
+margin: 60px 10px 0 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-size: 35px;
 }
 
+.section-two .see-all {
+width: 150px;
+height: 40px;
+background-color: #f2f2f2;
+border: 2px solid #040402;
+border-radius: 5px;
+font-size: 15px;
+cursor: pointer;
+}
+
+.section-two .see-all a {
+text-decoration: none;
+color: #040402;
+}
 
 @media (min-width: 970px){
     
@@ -70,32 +95,6 @@
         position: relative;
         border-radius: 10px;
     }
-}    
-    /*SECTION TWO*/
-    
-.section-two {
-    width: 100%;
-    height: 80px;
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 35px;
-}
-
-.section-two .see-all {
-    width: 150px;
-    height: 40px;
-    background-color: #f2f2f2;
-    border: 2px solid #040402;
-    border-radius: 5px;
-    font-size: 15px;
-    cursor: pointer;
-}
-
-.section-two .see-all a {
-    text-decoration: none;
-    color: #040402;
 }
     
 
