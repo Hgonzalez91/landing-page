@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     height: 630px;
-    background-image: linear-gradient(rgba(5, 7, 12, 0.8), rgb(255, 255, 255, 0.2)), url(/resource/banner-header.png);
+    background-image: linear-gradient(rgba(5, 7, 12, 0.8), rgb(255, 255, 255, 0.2)), url(./resource/banner-header.png);
     display: grid;
     grid-template-rows: 50px auto;
 }
